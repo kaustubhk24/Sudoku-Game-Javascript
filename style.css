@@ -1,0 +1,109 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+   
+  }
+  
+  .form-container
+  {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+  }
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+  
+  a:link{
+     color: white !important;
+  }
+    
+  
+  
+    /* Snackbar code*/
+    #snackbar {
+      visibility: hidden;
+      min-width: 250px;
+      margin-left: -125px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+    }
+    
+    #snackbar.show {
+      visibility: visible;
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    
+    @-webkit-keyframes fadein {
+      from {bottom: 0; opacity: 0;} 
+      to {bottom: 30px; opacity: 1;}
+    }
+    
+    @keyframes fadein {
+      from {bottom: 0; opacity: 0;}
+      to {bottom: 30px; opacity: 1;}
+    }
+    
+    @-webkit-keyframes fadeout {
+      from {bottom: 30px; opacity: 1;} 
+      to {bottom: 0; opacity: 0;}
+    }
+    
+    @keyframes fadeout {
+      from {bottom: 30px; opacity: 1;}
+      to {bottom: 0; opacity: 0;}
+    }
+      /* end Snackbar code*/
+  
+      .navbar-toggler{display: none;}
+
+.disabled{
+}
+td{padding:15px}#r1c1,#r2c1,#r3c1,#r4c1,#r4c4,#r4c7,#r5c1,#r5c4,#r5c7,#r6c1,#r6c4,#r6c7,#r7c1,#r7c4,#r7c7,#r8c1,#r8c4,#r8c7,#r9c1,#r9c4,#r9c7{border-left:solid 2px}#r1c3,#r1c6,#r1c9,#r2c3,#r2c6,#r2c9,#r3c3,#r3c6,#r3c9,#r4c9,#r5c9,#r6c9,#r7c9,#r8c9,#r9c9{border-right:solid 2px}#r3c1,#r3c2,#r3c3,#r3c4,#r3c5,#r3c6,#r3c7,#r3c8,#r3c9,#r6c1,#r6c2,#r6c3,#r6c4,#r6c5,#r6c6,#r6c7,#r6c8,#r6c9,#r9c1,#r9c2,#r9c3,#r9c4,#r9c5,#r9c6,#r9c7,#r9c8,#r9c9{border-bottom:solid 2px}#r1c1,#r1c2,#r1c3,#r1c4,#r1c5,#r1c6,#r1c7,#r1c8,#r1c9{border-top:solid 2px}
+td:hover {
+        background-color: #d3d3db;
+  }
+  .on{
+    
+    background-color:#d3d3db;
+}
+  
